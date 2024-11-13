@@ -1,0 +1,16 @@
+{
+  "name": "parcel-bootstrap-issue",
+  "version": "1.0.0",
+  "description": "reproduction for an issue with parcel 2.13.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build 'src/*.html'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "parcel": "2.13.0",
+    "@parcel/transformer-sass": "2.13.0"
+  }
+}

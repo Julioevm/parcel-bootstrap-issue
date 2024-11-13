@@ -1,9 +1,10 @@
-@use '~bootstrap/scss/mixins/' as mixins;
+@use '~bootstrap/scss/bootstrap-reboot';
+@use '~bootstrap/scss/mixins/breakpoints' as breakpoints;
 
 .test {
     color: red;
 
-    @include mixins.media-breakpoint-up(sm) {
+    @include breakpoints.media-breakpoint-up(sm) {
         color: blue;
     }
 }
